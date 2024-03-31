@@ -1,6 +1,6 @@
 {
   "name": "tauri-app-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@https://github.com/Linuxpizi/tauri-app.git"
+    "url": "git+https://github.com/Linuxpizi/tauri-app.git"
   },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "tangsong0202@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linuxpizi/tauri-app/issues"
+  },
+  "homepage": "https://github.com/Linuxpizi/tauri-app#README.md",
   "dependencies": {
     "@tauri-apps/api": "^1",
     "vue": "^3.3.4",
