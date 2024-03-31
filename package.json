@@ -1,12 +1,16 @@
 {
   "name": "tauri-app-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "tauri": "tauri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/Linuxpizi/tauri-app.git"
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
